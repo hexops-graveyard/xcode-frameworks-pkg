@@ -10,7 +10,7 @@ pub fn build(b: *std.Build) !void {
         .optimize = optimize,
     });
     lib.linkLibC();
-    lib.addCSourceFiles(&.{"stub.c"}, &.{});
+    lib.addCSourceFiles(.{ .files = &.{"stub.c"} });
 
     repository_url = "https://github.com/hexops/xcode-frameworks";
     commit = "723aa55e9752c8c6c25d3413722b5fe13d72ac4f";
