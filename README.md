@@ -1,3 +1,7 @@
+# Deprecated
+
+This workaround package is no longer needed. Use https://github.com/hexops/xcode-frameworks directly via the Zig package manager instead.
+
 # xcode-frameworks-pkg
 
 [hexops/xcode-frameworks](https://github.com/hexops/xcode-frameworks) is the Zig package to use when you need XCode frameworks, packaged for the Zig build system.
