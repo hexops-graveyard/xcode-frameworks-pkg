@@ -1,6 +1,6 @@
 # Deprecated
 
-This workaround package is no longer needed. Use https://github.com/hexops/xcode-frameworks directly via the Zig package manager instead.
+This workaround package is no longer needed. Use https://github.com/hexops/xcode-frameworks directly via the Zig package manager instead. See https://github.com/hexops/mach/issues/903
 
 # xcode-frameworks-pkg
 
